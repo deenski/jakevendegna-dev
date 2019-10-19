@@ -5,13 +5,17 @@
       <h1 class="title">
         Jakob Vendegna
       </h1>
+      <navigation />
       <h2 class="subtitle">
         DevOps Done Right
       </h2>
+      <h3 class="subtitle">
+        🔥☕This site is actively under construction.☕🔥
+      </h3>
       <div class="links">
         <a
           href="./about"
-          class="button--grey"
+          class="button--coral"
         >
           About
         </a>
@@ -33,47 +37,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #47555e;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #eeeeee;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #fff;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>

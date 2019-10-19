@@ -1,8 +1,22 @@
 <template>
   <div>
     <nuxt />
+    <logo />
+    <navigation />
   </div>
 </template>
+
+<script>
+import Logo from '~/components/Logo.vue'
+import Navigation from '~/components/Nav.vue'
+
+export default {
+  components: {
+    Logo,
+    Navigation
+  }
+}
+</script>
 
 <style>
 html {
@@ -50,5 +64,52 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #0077b5;
+}
+
+.button--coral {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #ff6f61;
+  color: #ff6f61;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px;
+}
+
+.button--coral:hover {
+  color: #fff;
+  background-color: #ff6f61;
+  border: 1px solid #fff;
+}
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #47555e;
+}
+
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #eeeeee;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #fff;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
 }
 </style>
