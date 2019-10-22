@@ -109,7 +109,27 @@ html {
   padding-bottom: 15px;
 }
 
+.caption {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fff;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
 .links {
   padding-top: 15px;
+}
+
+.article {
+  padding-top: 15px;
+  font-weight: 100;
+  font-size: 24px;
+  color: #fff;
+  word-spacing: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
 }
 </style>
