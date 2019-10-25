@@ -30,6 +30,7 @@ P {
   text-align: left;
   color: white;
   font-size: 1em;
+  margin-bottom: 5%;
 }
 
 P::first-letter {
