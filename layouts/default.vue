@@ -127,9 +127,9 @@ html {
   font-size: 24px;
   color: #fff;
   word-spacing: 5px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
   display: flex;
 }
 </style>
