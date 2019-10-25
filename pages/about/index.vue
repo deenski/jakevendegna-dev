@@ -2,10 +2,10 @@
   <div class="container">
     <div class="heading">
       <h1 class="title">
-        My Story
+        My Thoughts
       </h1>
       <h2 class="subtitle">
-        A Tale of Cloud Native DevOps First Development
+        A Pipelines First Approach
       </h2>
       <p>
         Writing applications from a pipelines-first approach can be a confusing place to start. What is there to do before any application code exists? Looking at the state of software development currently, with an empathetic eye towards the demands of modern business, I assert that starting any project with a build-pipeline first will help facilitate the rapid pace of development the market has come to expect. Here I'll attempt to make my case and give you a little insight as to my thought process during project initialization and why I value this approach to development. Doing so will require why understanding a pipelines-first approach is better suited to long-term maintenance of a project, how deploying nothing first will set up the project for successful and stress-free deployments far into the future, and understanding the role of the build server at project initialization.
