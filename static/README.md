@@ -2,7 +2,7 @@
 
 ## Developer Website
 
-[![Build Status](https://travis-ci.org/deenski/jakevendegna-dev.svg?branch=master)](https://travis-ci.org/deenski/jakevendegna-dev)
+[![Build Status](https://travis-ci.org/deenski/jakevendegna-dev.svg?branch=gh-pages)](https://travis-ci.org/deenski/jakevendegna-dev)
 
 My personal portfolio website, created with NuxtJS. Full src is on the gh-pages branch
 
