@@ -9,7 +9,7 @@
       </h2>
       <ul class="blog-links">
         <li class="links">
-          <a href="/blog/pipelines-first" class="links">A Pipelines-First Approach to DevOps</a>
+          <a href="blog/pipelines-first/" class="links">A Pipelines-First Approach to DevOps</a>
         </li>
       </ul>
     </div>
