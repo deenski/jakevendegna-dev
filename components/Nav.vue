@@ -7,6 +7,12 @@
       <router-link to="/about" class="button--coral">
         > About
       </router-link>
+      <router-link to="/blog" class="button--coral">
+        > Blog
+      </router-link>
+      <a href="./JakobVendegnaResume.pdf" target="blank" class="button--coral">
+        > Resume
+      </a>
     </nav>
   </div>
 </template>

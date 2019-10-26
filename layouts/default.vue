@@ -16,6 +16,7 @@ export default {
     Navigation
   }
 }
+
 </script>
 
 <style>
@@ -81,6 +82,15 @@ html {
   background-color: #ff6f61;
   border: 1px solid #fff;
 }
+
+::selection {
+  background-color: #ff6f61f7;
+}
+
+::-moz-selection {
+  background-color: # ff6f61f7;
+}
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -119,6 +129,19 @@ html {
 
 .links {
   padding-top: 15px;
+  color: #ff6f61;
+}
+
+.links:visited {
+  color: #ff6f61;
+}
+
+.links:hover {
+  color: white;
+}
+
+.links::selection {
+  color: white;
 }
 
 .article {
@@ -131,5 +154,18 @@ html {
   align-items: left;
   text-align: left;
   display: flex;
+}
+
+.heading {
+  width: 75%;
+}
+
+P {
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  color: white;
+  font-size: 1em;
+  margin-bottom: 5%;
 }
 </style>
