@@ -10,7 +10,7 @@
       <router-link to="/blog" class="button--coral">
         > Blog
       </router-link>
-      <a href="./JakobVendegnaResume.pdf" target="blank" class="button--coral">
+      <a href="/JakobVendegnaResume.pdf" target="blank" class="button--coral">
         > Resume
       </a>
     </nav>
